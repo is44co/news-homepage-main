@@ -197,6 +197,33 @@ gap: 1rem;
 nav .hide{
     display: none;
 }
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.downhero{
+    flex-wrap: wrap;
+    /* justify-content: center; */
+ margin: 0;
+ padding: 0;
+}
+.lefthero{
+    flex: 1 1 ;
+    margin: 0;
+    padding: 0;
+}
+.righthero{
+    flex: 1 1 ;
+}
+.downhero p{
+    width: 100%;
+    text-align: start;
+}
 label{
     display: block;
     font-size: 3rem;
@@ -253,13 +280,14 @@ align-items: center;
 margin: 1rem auto;
 gap: 2rem;
 }
+
 .pows p{
-
-width: 100%;
-
-
-} 
+    width: 100%;
+ }
+ 
 .pows{
+    margin: 0;
+    padding: 0;
     min-width: 20%;
  
     width:100%;
